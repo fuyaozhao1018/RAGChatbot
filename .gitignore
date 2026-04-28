@@ -1,0 +1,77 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+groupchat_app_src/.env
+!groupchat_app_src/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs and runtime files
+*.log
+*.pid
+*.sqlite
+*.sqlite3
+groupchat_app_src/backend/server.log
+
+# Local model files and vector indexes
+models/
+*.gguf
+*.ggml
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.faiss
+*.index
+
+# Uploaded/generated data archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Node/frontend
+node_modules/
+dist/
+build/
+.vite/
+.next/
+
+# Android/Gradle
+.gradle/
+**/build/
+**/.idea/
+**/*.iml
+**/local.properties
+*.apk
+*.aab
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
